@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/asad"
+        android:orderInCategory="100"
+        android:title="@string/share_it"
+        app:showAsAction="always"
+        android:icon="@drawable/share"
+        android:tint="@color/off_white"
+        />
+    <item android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:title="@string/rate_it"
+        app:showAsAction="always"
+        android:icon="@drawable/rate"
+        android:tint="@color/off_white"
+        />
+    <item android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/about_us"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="@string/help"
+        app:showAsAction="never"
+        />
+
+</menu>

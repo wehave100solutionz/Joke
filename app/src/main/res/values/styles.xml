@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MaterialTheme" parent="ParentTheme">
+
+    </style>
+
+    <style name="ParentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/off_white</item>
+
+    </style>
+
+    <!-- Customize your theme here for icon and title toolbar. -->
+    <style name="toolBarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">#e9f4ff</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- Customize your theme here for popup theme toolbar. -->
+    <style name="popupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/off_white</item>
+        <item name="android:background">@color/activityBackground</item>
+    </style>
+
+
+    <!-- Customize your theme here for floating lable edit text hint and error. -->
+    <style name="Widget.Design.TextInputLayout" parent="ParentTheme">
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+        <item name="errorTextAppearance">@style/AppTheme.TextErrorAppearance</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <!-- Floating label appearance here -->
+        <item name="android:textColor">@color/off_white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.Design.Error">
+        <!-- Error message appearance here -->
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+  <!--  <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+</resources>
